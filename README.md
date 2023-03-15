@@ -9,11 +9,6 @@ Has the ability to download working pages to an html file.
 You can also save them to a txt file.
 Both are possible.
 
-#### Dependencies:
-- gcc
-- libcurl
-- PC
-
 ## Using
 ```
 LastTrench: Finding what the person left behind online.
@@ -39,6 +34,11 @@ optional arguments:
 - gitclone https://github.com/Lomasterrrr/LastTrench.git
 - cd LastTrench
 - make
+
+#### Dependencies:
+- gcc
+- libcurl
+- PC
 
 ## Download build
 - 0.3.0 - https://github.com/Lomasterrrr/LastTrench/releases/tag/Last-Trench
