@@ -2,7 +2,7 @@
 ![alt text](https://i.imgur.com/N8SaIwS.png)
 
 
-LastTrench - Finding what the person left behind online.
+LastTrench (new version my findperson) - Finding what the person left behind online.
 You give the software a name and it searches social media pages and websites with that name.
 
 Has the ability to download working pages to an html file.
