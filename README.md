@@ -37,6 +37,10 @@ optional arguments:
     Searches for pages called lomaster.
     And then saves (TXT).
     
+./lastn -n lomaster -l -d -x
+
+    Searches for pages called lomaster.
+    And then saves (even non-working ones) in html and txt.
 ```
 
 ## Compile
