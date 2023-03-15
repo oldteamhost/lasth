@@ -30,6 +30,14 @@ optional arguments:
   --ru                  Это меню на нормальной языке).
 ```
 
+## Example
+```
+  ./lastn -n lomaster -x
+ 
+    Searches for pages called lomaster.
+    And then saves.
+```
+
 ## Compile
 - gitclone https://github.com/Lomasterrrr/LastTrench.git
 - cd LastTrench
