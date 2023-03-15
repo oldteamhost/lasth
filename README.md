@@ -32,10 +32,11 @@ optional arguments:
 
 ## Example
 ```
-  ./lastn -n lomaster -x
- 
+./lastn -n lomaster -x
+
     Searches for pages called lomaster.
-    And then saves.
+    And then saves (TXT).
+    
 ```
 
 ## Compile
