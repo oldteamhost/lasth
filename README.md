@@ -47,8 +47,8 @@ argumentation description:
 ```
 
 ## Compile
-- gitclone https://github.com/Lomasterrrr/LastTrench.git
-- cd LastTrench
+- git clone https://github.com/Lomasterrrr/LastTrench.git
+- cd LastTrench/0.3.3
 - make
 
 #### Dependencies:
