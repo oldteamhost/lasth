@@ -57,5 +57,4 @@ argumentation description:
 - PC
 
 ## Download build
-- 0.3.3 - 
-- 0.3.0 - https://github.com/Lomasterrrr/LastTrench/releases/tag/Last-Trench
+- 0.3.3 (linux) - https://github.com/Lomasterrrr/LastTrench/releases/tag/last-trench-3
