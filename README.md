@@ -14,30 +14,33 @@ Both are possible.
 LastTrench: Finding what the person left behind online.
 
 
-usage: ./Lastn  [-h] [--version] [-n NICKNAME] [--txt]
-                [-d] [-t TIMEOUT] [-p PROTC://IP:PORT]
-                [--html] [--ru]
+usage: ./Lastn [-h] [--version] [-n NICKNAME] [--txt]
+               [-d] [-t TIMEOUT] [-p PROTC://IP:PORT]
+               [--html] [--ru] [--color]
 
-optional arguments:
+
+argumentation description:
   -n, --name            Set target name.
   -h, --help            Show this help message and exit.
   --version, -v         Display version information and dependencies.
-  -d, --db, -debug      Saving and outputting even pages that are not working.
   -t, --timeout         Set a delay when receiving a page.
-  -x, --oX              Save the output to a text file.
-  -l, --oL              Save output to html.
   -p, --proxy           Using proxy server.
+  --debug               Saving and outputting even pages that are not working.
+  --html                Save the output to a text file.
+  --txt                 Save output to html.
+  --path                Specify your file with links.
+  --color               Disable color.
   --ru                  Это меню на нормальной языке).
 ```
 
 ## Example
 ```
-./lastn -n lomaster -x
+./lastn -n lomaster --txt
 
     Searches for pages called lomaster.
     And then saves (TXT).
     
-./lastn -n lomaster -l -d -x
+./lastn -n lomaster --txt --debug --html
 
     Searches for pages called lomaster.
     And then saves (even non-working ones) in html and txt.
@@ -54,4 +57,5 @@ optional arguments:
 - PC
 
 ## Download build
+- 0.3.3 - 
 - 0.3.0 - https://github.com/Lomasterrrr/LastTrench/releases/tag/Last-Trench
