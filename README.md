@@ -16,7 +16,7 @@ LastTrench: Finding what the person left behind online.
 
 usage: ./Lastn [-h] [--version] [-n NICKNAME] [--txt]
                [-d] [-t TIMEOUT] [-p PROTC://IP:PORT]
-               [--html] [--ru] [--color]
+               [--html] [--ru] [--color] [--code CODE]
 
 
 argumentation description:
@@ -30,6 +30,7 @@ argumentation description:
   --txt                 Save output to html.
   --path                Specify your file with links.
   --color               Disable color.
+  --code                Specify your correct answer code.
   --ru                  Это меню на нормальной языке).
 ```
 
@@ -48,7 +49,7 @@ argumentation description:
 
 ## Compile
 - git clone https://github.com/Lomasterrrr/LastTrench.git
-- cd LastTrench/0.3.3
+- cd LastTrench/0.3.6
 - make
 
 #### Dependencies:
@@ -57,4 +58,4 @@ argumentation description:
 - PC
 
 ## Download build
-- 0.3.3 (linux) - https://github.com/Lomasterrrr/LastTrench/releases/tag/last-trench-3
+- 0.3.6 (linux) - https://github.com/Lomasterrrr/LastTrench/releases/tag/Last-Trench-0.3.6
