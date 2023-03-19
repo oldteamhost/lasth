@@ -1,0 +1,21 @@
+usage: lastn [TARGET] [OPTIONS]
+
+MAIN:
+  -t, --timeout <TIMEOUT_MS>               Set timeout;
+  -p, --proxy <PROTOCOL://IP:PORT>         Set proxy;
+  
+OUTPUT:
+  --db, --debug                            Enable debug;
+  --html                                   
+  --txt
+  
+CUSTOM:
+  --path <PATH_SOCAIL>
+  --code <YOUR_CODE>
+  
+MISC:
+  -h, --help
+  -v, --version
+  --color
+  --ru
+
