@@ -1,5 +1,5 @@
 # LastTrench
-![alt text](https://i.imgur.com/CywL5kb.png)
+![alt text](https://i.imgur.com/moVml9K.png)
 
 
 LastTrench (new version my findperson) - Finding what the person left behind online.
@@ -49,7 +49,7 @@ argumentation description:
 
 ## Compile
 - git clone https://github.com/Lomasterrrr/LastTrench.git
-- cd LastTrench/0.3.6
+- cd LastTrench/0.3.8
 - make
 
 #### Dependencies:
@@ -58,4 +58,4 @@ argumentation description:
 - PC
 
 ## Download build
-- 0.3.6 (linux) - https://github.com/Lomasterrrr/LastTrench/releases/tag/Last-Trench-0.3.6
+- 0.3.8 (linux) - https://github.com/Lomasterrrr/LastTrench/releases/tag/Last-Trench-0.3.8
