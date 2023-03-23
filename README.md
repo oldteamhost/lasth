@@ -49,7 +49,6 @@ argumentation description:
     Searches for pages called lomaster.
     And then saves (even non-working ones) in html and txt.
 ```
-## Algorithms
 
 ### CODE
 ```
