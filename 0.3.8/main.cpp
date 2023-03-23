@@ -55,7 +55,7 @@ int main(int argc, char *argv[])
         srand(time(nullptr));
         out.initFolders();
 
-        while ((rez = getopt_long(argc, argv, short_options, long_options, &option_index)) != EOF)
+        while (rez = getopt_long(argc, argv, short_options, long_options, &option_index) != EOF)
         {
             if (rez == -1)
                 break;
