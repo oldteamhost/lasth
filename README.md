@@ -9,6 +9,9 @@ Has the ability to download working pages to an html file.
 You can also save them to a txt file.
 Both are possible.
 
+## Download build
+- 0.3.8 (linux) - https://github.com/Lomasterrrr/LastTrench/releases/tag/Last-Trench-0.3.8
+
 ## Using
 ```
 LastTrench: Finding what the person left behind online.
@@ -46,6 +49,7 @@ argumentation description:
     Searches for pages called lomaster.
     And then saves (even non-working ones) in html and txt.
 ```
+## Sites base
 
 ## Compile
 - git clone https://github.com/Lomasterrrr/LastTrench.git
@@ -56,6 +60,3 @@ argumentation description:
 - gcc
 - libcurl
 - PC
-
-## Download build
-- 0.3.8 (linux) - https://github.com/Lomasterrrr/LastTrench/releases/tag/Last-Trench-0.3.8
