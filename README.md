@@ -49,7 +49,25 @@ argumentation description:
     Searches for pages called lomaster.
     And then saves (even non-working ones) in html and txt.
 ```
+## Algorithms
+
+### CODE
+```
+Puts the name you specified at the end of the link.
+It then checks if the page is accessible by getting the response code. 
+If it is 200 OK, the page exists. But this doesn't always work, -
+some sites use java script instead of a 404 page. For example steam, reddit.
+```
+### SIZE
+```
+Puts the name you specified at the end of the link.
+Then checks the size of the page code, the point is that, -
+in a profile that doesn't exist, -
+the code on the page is much smaller than in an existing page.
+```
+
 ## Sites base
+
 ```CODE``` Standart -  ![download](https://github.com/Lomasterrrr/LastTrench/blob/main/bases/standart.txt)
 
 ## Compile
