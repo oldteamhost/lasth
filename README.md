@@ -69,6 +69,11 @@ the code on the page is much smaller than in an existing page.
 
 ```CODE``` Standart -  ![download](https://github.com/Lomasterrrr/LastTrench/blob/main/bases/standart.txt)
 
+```
+To use, add a flag with an algorithm that suits the base, e.g. a standard base. Algorithm "code" is suitable.
+Therefore add the flag "--ac". But it is not necessary for this algorithm, it is used by default anyway.
+```
+
 ## Compile
 - git clone https://github.com/Lomasterrrr/LastTrench.git
 - cd LastTrench/0.3.8
