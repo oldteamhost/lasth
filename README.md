@@ -50,7 +50,7 @@ argumentation description:
     And then saves (even non-working ones) in html and txt.
 ```
 ## Sites base
-STANDART - ![download](https://github.com/Lomasterrrr/LastTrench/blob/main/bases/standart.txt)
+Standart >> ![download](https://github.com/Lomasterrrr/LastTrench/blob/main/bases/standart.txt)
 
 ## Compile
 - git clone https://github.com/Lomasterrrr/LastTrench.git
