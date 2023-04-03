@@ -1,5 +1,5 @@
 # LastTrench
-![alt text](https://i.imgur.com/moVml9K.png)
+![alt text](https://i.imgur.com/DVA2JF2.png)
 
 
 LastTrench (new version my findperson) - Finding what the person left behind online.
@@ -17,13 +17,12 @@ Both are possible.
 LastTrench: Finding what the person left behind online.
 
 
-usage: ./Lastn [-h] [--version] [-n NICKNAME] [--txt]
-               [-d] [-t TIMEOUT] [-p PROTC://IP:PORT]
-               [--html] [--ru] [--color] [--code CODE]
+usage: ./lstn <TARGET> [-h] [--version] [--txt] [-d]
+                       [-t TIMEOUT] [-p PROTC://IP:PORT]
+                       [--html] [--ru] [--color] [--code CODE]
 
 
 argumentation description:
-  -n, --name            Set target name.
   -h, --help            Show this help message and exit.
   --version, -v         Display version information and dependencies.
   -t, --timeout         Set a delay when receiving a page.
@@ -35,16 +34,17 @@ argumentation description:
   --color               Disable color.
   --code                Specify your correct answer code.
   --ru                  Это меню на нормальной языке).
+
 ```
 
 ## Example
 ```
-./lastn -n lomaster --txt
+./lastn lomaster --txt
 
     Searches for pages called lomaster.
     And then saves (TXT).
     
-./lastn -n lomaster --txt --debug --html
+./lastn lomaster --txt --debug --html
 
     Searches for pages called lomaster.
     And then saves (even non-working ones) in html and txt.
