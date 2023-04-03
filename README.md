@@ -51,8 +51,10 @@ argumentation description:
 ```
 
 ## Compile
-1. ARCH & MANJARO     sudo pacman -S curl
-2. DEBIAN             sudo apt install curl
+1. ARCH & MANJARO  
+    **sudo pacman -S curl**
+2. DEBIAN      
+    **sudo apt install curl**
 
 
 - git clone https://github.com/Lomasterrrr/LastTrench.git
