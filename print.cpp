@@ -1,7 +1,7 @@
 #include "includes/print.h"
 #include "lib/termcolor.hpp"
 
-#define VERSION_PROGRAM "oldteam 0.3.8"
+#define VERSION_PROGRAM "oldteam 0.4.0"
 
 using namespace termcolor;
 
