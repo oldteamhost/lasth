@@ -10,7 +10,7 @@ You can also save them to a txt file.
 Both are possible.
 
 ## Download build
-- 0.3.8 (linux) - https://github.com/Lomasterrrr/LastTrench/releases/tag/Last-Trench-0.3.8
+- 0.4.0 (linux) - https://github.com/Lomasterrrr/LastTrench/releases/tag/last-trench-4
 
 ## Using
 ```
