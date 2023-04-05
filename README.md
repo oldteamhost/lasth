@@ -1,11 +1,10 @@
 # LastTrench
-![alt text](https://i.imgur.com/DVA2JF2.png)
+![alt text](https://i.imgur.com/0GbSwUl.png)
 
 
 LastTrench (new version my findperson) - Finding what the person left behind online.
 You give the software a name and it searches social media pages and websites with that name.
 
-Has the ability to download working pages to an html file.
 You can also save them to a txt file.
 Both are possible.
 
@@ -16,53 +15,48 @@ Both are possible.
 ```
 LastTrench: Finding what the person left behind online.
 
-
-usage: ./lstn <TARGET> [-h] [--version] [--txt] [-d]
-                       [-t TIMEOUT] [-p PROTC://IP:PORT]
-                       [--html] [--ru] [--color] [--code CODE]
+usage: ./lasth [TARGETS (1,2,3) ] [ARGUMENTS]
 
 
-argumentation description:
+arguments main:
   -h, --help            Show this help message and exit.
-  --version, -v         Display version information and dependencies.
-  -t, --timeout         Set a delay when receiving a page.
-  -p, --proxy           Using proxy server.
-  --debug               Saving and outputting even pages that are not working.
-  --html                Save the output to a text file.
-  --txt                 Save output to html.
-  --path                Specify your file with links.
-  --color               Disable color.
-  --code                Specify your correct answer code.
-  --ru                  Это меню на нормальной языке).
+  -v, --version         Display version information and dependencies.
+  --db, --debug         Saving and outputting even pages that are not working.
+  -T, --timeout<MS>     Set a delay when receiving a page.
 
+arguments save:
+  --txt <FILE>          Save output to html.
+
+arguments user:
+  -p, --proxy <PROXY>   Using proxy server.
+  --base <PATH>         Specify your file with links.
+  --code <CODE>         Specify your correct answer code.
 ```
 
 ## Example
 ```
-./lastn lomaster --txt
+./lastn lomaster,lol --txt result.txt
 
-    Searches for pages called lomaster.
+    Searches for pages called lomaster and lol.
     And then saves (TXT).
     
-./lastn lomaster --txt --debug --html
+./lastn lomaster --txt result.txt --db
 
     Searches for pages called lomaster.
-    And then saves (even non-working ones) in html and txt.
+    And then saves (even non-working ones) in txt.
 ```
 
 ## Compile
-1. ARCH & MANJARO  
+-  ARCH & MANJARO  
         **sudo pacman -S curl**
        
-2. DEBIAN      
+- DEBIAN      
         **sudo apt install curl**
 
-
 - git clone https://github.com/Lomasterrrr/LastTrench.git
-- cd LastTrench/0.3.8
+- cd LastTrench/5.5
 - make
 
 #### Dependencies:
 - gcc
 - libcurl
-- PC
