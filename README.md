@@ -20,9 +20,11 @@ arguments main:
   -v, --version         Display version information and dependencies.
   --db, --debug         Saving and outputting even pages that are not working.
   -T, --timeout<MS>     Set a delay when receiving a page.
+  --thanks              Display all contributors.
 
 arguments save:
-  --txt <FILE>          Save output to html.
+  --txt <FILE>          Save output to txt.
+  --html <FOLDER/>      Save output to html.
 
 arguments user:
   -p, --proxy <PROXY>   Using proxy server.
