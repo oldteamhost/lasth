@@ -31,6 +31,26 @@ arguments user:
   --base <PATH>         Specify your file with links.
   --code <CODE>         Specify your correct answer code.
 ```
+## Proxy using
+```
+http://ip:port
+    HTTP Proxy. Default when no scheme or proxy type is specified.
+
+https://ip:port
+    HTTPS Proxy. (Added in 7.52.0 for OpenSSL, GnuTLS and NSS)
+
+socks4://ip:port
+    SOCKS4 Proxy.
+
+socks4a://ip:port
+    SOCKS4a Proxy. Proxy resolves URL hostname.
+
+socks5://ip:port
+    SOCKS5 Proxy.
+
+socks5h://ip:port
+    SOCKS5 Proxy. Proxy resolves URL hostname.
+```
 
 ## Example
 ```
