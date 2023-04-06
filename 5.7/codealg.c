@@ -21,7 +21,7 @@ long standart_get_responce_code(const char *node, int proxy_on, const char *prox
 {
     CURL *curl = curl_easy_init();
     if (!curl) {
-        return 0;
+        return EOF;
     }
 
     curl_easy_setopt(curl, CURLOPT_URL, node);
