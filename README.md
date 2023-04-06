@@ -34,22 +34,22 @@ arguments user:
 ## Proxy using
 ```
 --proxy http://ip:port
-    HTTP Proxy.
+      HTTP Proxy.
 
 --proxy https://ip:port
-    HTTPS Proxy.
+      HTTPS Proxy.
 
 --proxy socks4://ip:port
-    SOCKS4 Proxy.
+      SOCKS4 Proxy.
 
 --proxy socks4a://ip:port
-    SOCKS4a Proxy.
+      SOCKS4a Proxy.
 
 --proxy socks5://ip:port
-    SOCKS5 Proxy.
+      SOCKS5 Proxy.
 
 --proxy socks5h://ip:port
-    SOCKS5 Proxy.
+      SOCKS5 Proxy.
 ```
 
 ## Example
