@@ -34,22 +34,22 @@ arguments user:
 ## Proxy using
 ```
 http://ip:port
-    HTTP Proxy. Default when no scheme or proxy type is specified.
+    HTTP Proxy.
 
 https://ip:port
-    HTTPS Proxy. (Added in 7.52.0 for OpenSSL, GnuTLS and NSS)
+    HTTPS Proxy.
 
 socks4://ip:port
     SOCKS4 Proxy.
 
 socks4a://ip:port
-    SOCKS4a Proxy. Proxy resolves URL hostname.
+    SOCKS4a Proxy.
 
 socks5://ip:port
     SOCKS5 Proxy.
 
 socks5h://ip:port
-    SOCKS5 Proxy. Proxy resolves URL hostname.
+    SOCKS5 Proxy.
 ```
 
 ## Example
