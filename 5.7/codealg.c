@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <curl/curl.h>
-#include <string.h>
 #include "codealg.h"
 #include "menu.h"
 #include <stdlib.h>
