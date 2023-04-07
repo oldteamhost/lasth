@@ -1,13 +1,6 @@
 #include <stdio.h>
 #include <curl/curl.h>
 #include <string.h>
-#include <unistd.h>
-#include <errno.h>
-#include <netdb.h>
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <arpa/inet.h>
 #include "codealg.h"
 #include "menu.h"
 #include <stdlib.h>
