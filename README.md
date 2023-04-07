@@ -8,6 +8,11 @@ You give the software a name and it searches social media pages and websites wit
 You can also save them to a txt file.
 Both are possible.
 
+- LastTrench is fully cross-platform, on Windows compile through MinGW, I tried but could not connect the libraries :)
+- Your link bases must also lie in bases, otherwise it will not find them.
+- The interface is similar to nmap, yes, I just think it is the most optimized interface.
+- I didn't add unnecessary arguments just to take up space in the help menu, why?
+
 ## Using
 ```
 LastTrench: Finding what the person left behind online.
