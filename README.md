@@ -78,7 +78,7 @@ arguments user:
         **sudo apt install curl**
 
 - git clone https://github.com/Lomasterrrr/LastTrench.git
-- cd last-trench/5.7
+- cd LastTrench/5.7
 - make
 
 #### Dependencies:
