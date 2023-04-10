@@ -77,7 +77,7 @@ arguments user:
 - DEBIAN      
         **sudo apt install curl**
 
-- git clone https://github.com/Lomasterrrr/LastTrench.git
+- git clone https://github.com/Lomasterrrr/lasth.git
 - cd lasth
 - make
 
