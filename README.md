@@ -75,7 +75,7 @@ arguments user:
         **sudo pacman -S curl**
        
 - DEBIAN      
-        **sudo apt install curl**
+        **sudo apt-get install libcurl4-openssl-dev**
 
 - git clone https://github.com/Lomasterrrr/lasth.git
 - cd lasth
