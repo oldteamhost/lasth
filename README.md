@@ -69,10 +69,6 @@ arguments user:
     Searches for pages called lomaster.
     And then saves (even non-working ones) in txt.
 ```
-## Run Build
-- DEBIAN
-  **sudo apt-get install libssl-dev**
-  **sudo ldconfig**
 ## Compile
 -  ARCH & MANJARO  
         **sudo pacman -S curl**
