@@ -47,8 +47,6 @@ int main(int argc, char** argv){
             help_menu();
             return 0; 
         } 
-        else {
-
         // init folders
         init_main_folders();
 
@@ -128,7 +126,6 @@ int main(int argc, char** argv){
                     break;
             }
         }
-    }
 
     time_t now = time(NULL);
     struct tm *t = localtime(&now); char datetime[20];
